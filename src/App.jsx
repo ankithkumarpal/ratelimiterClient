@@ -11,7 +11,7 @@ function App() {
     <div style={{display:"flex" , justifyContent:"center" , alignItems:"center" , marginBottom:"2rem"}}>
        <h1 style={{color : "grey" }}>Rate Limiter Using 3 Different Algorithm</h1>
     </div>
-    <div style={{display:"flex" , justifyContent:"space-around"}}>
+    <div style={{display:"flex" , justifyContent:"space-between"}}>
       <SlidingWindow/>
       <TokenBucket/>
       <LeakyBucket/>

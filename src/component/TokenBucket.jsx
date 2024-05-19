@@ -35,7 +35,7 @@ function TokenBucket() {
   };
 
   return (
-    <div style={{ textAlign: 'center', border: '1px solid grey', padding: '2rem', borderRadius: '25px', width: 'fit-content', height: 'fit-content' }}>
+    <div style={{ textAlign: 'center', border: '1px solid grey', padding: '2rem', borderRadius: '25px', width: 'fit-content', height: 'fit-content' ,  marginLeft:"2rem" , marginRight:"2rem"}}>
         <h1 style={{ color: 'grey' }}>Token Bucket Algorithm</h1>
         <p>Re-fill rate is 2 per 10 sec</p>
         <p>Maximum Capacity : 5 per 10 sec </p>
